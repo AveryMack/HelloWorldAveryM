@@ -10,7 +10,7 @@
 
 -- Your code here
 --print my name to the console
-print ("Hello Avery Mack!")
+print ("Hello Everyone!")
 
 -- hide the status bar
 display.setStatusBar (display.HiddenStatusBar)
@@ -22,7 +22,7 @@ display.setDefault ("background", 145/255, 168/255, 228/255)
 local textObject
 
 -- create the text object at position (300,500) with a size of 50
-textObject = display.newText ("Hello Avery Mack", 50, 100, nil, 50)
+textObject = display.newText ("Hello Everyone", 50, 100, nil, 50)
 
 -- anchor the textObject from the top left corner
 textObject.anchorX = 0
